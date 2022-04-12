@@ -1,0 +1,220 @@
+body {
+    width:100%;
+    height:100%;
+    margin: 0%;
+    /* background: linear-gradient(#254D32, #254d32c0) */
+    background: linear-gradient(#A7333F, #a7333f7e);
+
+}
+
+@media screen and (min-width:376px){ 
+    .grid {
+        display: grid;
+        width: 100%;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:
+        "logo logo logo logo"
+        "nav texto texto texto"
+        "redes redes redes redes"
+        "footer footer footer footer"
+    }
+    header {
+        /*  display: grid;
+         grid-area: header; */
+         background-color: aliceblue;
+         display: inline-block;
+         justify-content: center;
+     }
+     
+     
+     
+     h4 {
+         font-family:Verdana, Geneva, Tahoma, sans-serif; 
+         background-color:aliceblue;
+         color: #EA526F;
+     }
+     
+     .logo {
+         display: grid;
+         grid-area: logo;
+         width: 100%;
+         height: 100%;
+         justify-content: center;
+         /* margin-bottom: 30px; */
+         background-color: aliceblue;
+         /* gap: 10px; */
+         /* border: 1px solid black; */
+     }
+     
+     #nav {
+         background-color: #74121D;
+         display: grid;
+         grid-area: nav;
+         /* border: 1px solid black; */
+     }
+     
+     
+     .menuPadre{
+        list-style: none;
+        padding: 15px;
+        margin: 10px;
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        background-color: #A51C30;
+      }
+      .menuHijo {
+          padding: 15px;
+          margin: 10px;
+          border: 3px solid #74121D;
+          border-radius: 5px;
+      }
+     .texto {
+         display: grid;
+         grid-area: texto;
+         margin-left: 10px;
+         justify-items: center;
+         font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+         /* border: 1px solid black; */
+         background-color: #A7333F;
+     }
+     #redesSociales {
+         display: grid;
+         grid-area: redes;
+         display: flex;
+         justify-content: stretch;
+         justify-items: center;
+         /* border: 1px solid black; */
+         background-color: white;
+     }
+     
+     #redesDos {
+         display: flex;
+         justify-content: center;
+     }
+     footer {
+         display: grid;
+         grid-area: footer;
+         /* border: 1px solid black; */
+         background-color: #A51C30;
+         color: gray;
+     }
+     
+     a {
+         text-decoration: none;
+         color: #000;
+     }
+    }
+      
+@media screen and (max-width:375px){
+.grid {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto auto auto auto;
+  grid-template-areas:
+  "logo logo logo logo"
+  "nav texto texto texto"
+  "redes redes redes redes"
+  "footer footer footer footer"
+}   
+}
+
+body {
+  width:100%;
+  height:100%;
+  margin: 0%;
+  /* background: linear-gradient(#254D32, #254d32c0) */
+  background: linear-gradient(#A7333F, #a7333f7e);
+
+}
+
+header {
+ /*  display: grid;
+  grid-area: header; */
+  background-color: aliceblue;
+  display: inline-block;
+  justify-content: center;
+}
+
+
+
+h4 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif; 
+  background-color:aliceblue;
+  color: #EA526F;
+}
+
+.logo {
+  display: grid;
+  grid-area: logo;
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+  /* margin-bottom: 30px; */
+  background-color: aliceblue;
+  /* gap: 10px; */
+  /* border: 1px solid black; */
+}
+
+#nav {
+  background-color: #74121D;
+  display: grid;
+  grid-area: nav;
+  /* border: 1px solid black; */
+}
+
+
+.menuPadre{
+  list-style: none;
+  padding: 15px;
+  margin: 10px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #A51C30;
+}
+.menuHijo {
+    padding: 15px;
+    margin: 10px;
+    border: 3px solid #74121D;
+    border-radius: 5px;
+}
+
+.texto {
+  display: grid;
+  grid-area: texto;
+  margin-left: 10px;
+  justify-items: stretch;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  /* border: 1px solid black; */
+  background-color: #A7333F;
+}
+#redesSociales {
+    width: 100%;
+    display: flex;
+    justify-items: center;
+  display: grid;
+  grid-area: redes;
+  /* border: 1px solid black; */
+  background-color: white;
+}
+
+#redesDos {
+  width: 100%;
+  display: flex;
+   justify-content: space-evenly;
+  justify-items: center;
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+footer {
+  display: grid;
+  grid-area: footer;
+  /* border: 1px solid black; */
+  background-color: #A51C30;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
