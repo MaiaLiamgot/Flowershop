@@ -14,12 +14,16 @@ height:auto;
 transition: all 3s;
 }
 
+<<<<<<< HEAD
 .transform1 {
     transform: rotateX(45deg);
   background-color: #000;
   }
   
   
+=======
+
+>>>>>>> nuevo_contenido
 @media screen and (min-width:376px){ 
     .grid {
         display: grid;
