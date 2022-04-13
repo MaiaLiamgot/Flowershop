@@ -15,7 +15,7 @@ transition: all 3s;
 }
 
 .transform1 {
-  transform: skew (45deg, 0deg);
+    transform: rotateX(45deg);
   background-color: #000;
   }
   
