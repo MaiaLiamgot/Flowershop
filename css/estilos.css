@@ -7,6 +7,7 @@ body {
 
 }
 
+
 @media screen and (min-width:376px){ 
     .grid {
         display: grid;
