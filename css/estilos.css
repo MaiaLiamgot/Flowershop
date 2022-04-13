@@ -6,7 +6,20 @@ body {
     background: linear-gradient(#A7333F, #a7333f7e);
 
 }
+main div header h4 {
+  padding:25px;
+margin-bottom:0px;
+width:auto;
+height:auto;
+transition: all 3s;
+}
 
+.transform1 {
+  transform: skew (45deg, 0deg);
+  background-color: #000;
+  }
+  
+  
 @media screen and (min-width:376px){ 
     .grid {
         display: grid;
@@ -26,8 +39,8 @@ body {
          display: inline-block;
          justify-content: center;
      }
-     
-     
+
+      
      
      h4 {
          font-family:Verdana, Geneva, Tahoma, sans-serif; 
