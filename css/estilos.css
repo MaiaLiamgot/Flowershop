@@ -6,19 +6,7 @@ body {
     background: linear-gradient(#A7333F, #a7333f7e);
 
 }
-main div header h4 {
-  padding:25px;
-margin-bottom:0px;
-width:auto;
-height:auto;
-transition: all 3s;
-}
 
-.transform1 {
-    transform: rotateX(45deg);
-  background-color: #000;
-  }
-  
   
 @media screen and (min-width:376px){ 
     .grid {
