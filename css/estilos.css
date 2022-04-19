@@ -6,16 +6,16 @@ body {
     background: linear-gradient(#A7333F, #a7333f7e);
 
 }
+header h4:hover{     
+  animation-name: animate__pulse;
+  font-size: 15px;
+  color: #ea526ec2;
+ }
 
-/* @keyframes un_efecto {
-  0% { width: 100px; }
-  25% { width: 300px; font-size: 18px; }
-  50% { width: 200px; background-color:red; font-size: 20px; }
-  75% { width: 300px; font-size: 24px; }
-  100% { width: 100px; background-color: green; font-size: 14px; }
-} */
-
-
+ main div header img:hover {
+  padding:15px;
+  transition: all 3s;
+  }
 
 
 @media screen and (min-width:376px){ 
