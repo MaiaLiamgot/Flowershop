@@ -7,7 +7,17 @@ body {
 
 }
 
+header h4:hover{     
+  animation-name: animate__pulse;
+  font-size: 15px;
+  color: #ea526ec2;
+ }
 
+ main div header img:hover {
+  padding:15px;
+  transition: all 3s;
+  }
+  
 @media screen and (min-width:376px){ 
     .grid {
         display: grid;
